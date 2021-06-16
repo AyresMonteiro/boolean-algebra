@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 typedef struct byteStruct {
 	unsigned h: 1;
@@ -18,4 +19,11 @@ typedef union easyReadAndAssignByte {
 } easyReadAndAssignByte;
 
 void printByte(byteStruct byteVar); 
+
+bool compareTwoEquations(
+	int exclusiveMaxNum,
+	bool (*e1) (byteStruct),
+	bool (*e2) (byteStruct),
+	void (*printInputs) (byteStruct)
+);
 
