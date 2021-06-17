@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+extern const char * booleans[];
+
 typedef struct byteStruct {
 	unsigned h: 1;
 	unsigned g: 1;

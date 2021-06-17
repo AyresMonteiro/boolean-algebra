@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "mybytelib.h"
+#include "./mybytelib.h"
+
+const char * booleans[] = {
+	"false\0",
+	"true\0"
+};
 
 void printByte(byteStruct byteVar) {
 	printf("%d%d%d%d%d%d%d%d",
