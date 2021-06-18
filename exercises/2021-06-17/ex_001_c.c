@@ -31,7 +31,7 @@ bool originalEquation (byteStruct inputs) {
 	!(!D!A + !B!A + C) * !(DC!A + DC!A!B + D!B!A)
 	((D + A) * (B + A) * !C) * ((!D + !C + A) * (!D + !C + A + B) * (!D + B + A))
 	((DB + DA + AB + A) * !C) * ((!D + !D!C + !DA + !DB + !C + !CA + !CB + A + AB) * (!D + B + A))
-	((DB + DA + AB + A) * !C) * ((!D + !D!C + !DA + !DB + !C + !CA + !CB + A + AB) * (!D + B + A))
+	((DB + A(D + B + 1)) * !C) * ((!D(1 + !C + A + B) + !C(1 + B) + A(!C + 1 + B)) * (!D + B + A))
 	((DB + A) * !C) * ((!D + !C + A) * (!D + B + A))
 	(DB!C + !CA) * (!D + !DB + !DA + !C!D + !CB + !CA + A!D + AB + A)
 	(DB!C + !CA) * (!D(1 + B + A + !C) + !CB + A(!C + D + B + 1))
