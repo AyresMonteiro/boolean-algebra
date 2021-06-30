@@ -1,0 +1,5 @@
+⊕ => Exclusive or
+	A ⊕ B expands to => !AB + A!B
+!⊕ => Exclusive nor
+	A !⊕ B expands to => !A!B + AB
+
